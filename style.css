@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: black;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+img{
+    width: 30px;
+    margin: 0px 5px;
+    border-radius: 60%;
+    height: 30px;
+}
+
+.dados{
+    padding-right: 50px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.login{
+    background: #cccccc;
+    border-radius: 20px;
+    max-width: 600px;   
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.9);
+    padding: 20px;
+    
+}
+
+.box{
+    float: left;
+    text-align: left;
+}
+.grupo{
+    
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+input, textarea{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background-color: #c1c1c1;
+    font-size: 16px;
+}
+
+button{
+    color: black;
+    background-color: #cccccc;
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
